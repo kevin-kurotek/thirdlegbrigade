@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: 3legs
+  pool: 5
+  username: 3legs
+  password: 3legs
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: kurotek_test
+  pool: 5
+  username: kurotektest
+  password: pt109
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: 3legs
+  pool: 5
+  username: 3legs
+  password: 3legs
